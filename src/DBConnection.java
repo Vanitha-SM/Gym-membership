@@ -5,7 +5,7 @@ import java.util.logging.Logger;
 public class DBConnection {
     static final String URL = "jdbc:mysql://localhost:3306/gymdb";
     static final String USER = "root";
-    static final String PASSWORD = "randompassword"; 
+    static final String PASSWORD = "***********"; 
     private static final Logger logger = Logger.getLogger(DBConnection.class.getName());
 
     public static Connection getConnection() {
